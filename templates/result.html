@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block ourpage %}
+
+<div class="card" style="width: 18rem;">
+	<img src="{{results[1]}}" class="card-img-top" alt="{{results[1]}}">
+	<div class="card-body">
+		<h5 class="card-title">{{results[0][0]}}</h5>
+		<p class="card-text">Confidence: {{results[0][1]}}</p>
+	</div>
+</div>
+
+{% endblock %}

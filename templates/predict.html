@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% block ourpage %}
+<div class="container">
+
+	<form method="post" action="/upload" enctype="multipart/form-data">
+		<div class="input-group mb-3">
+			<input type="file" class="form-control" id="inputGroupFileImg" name="img" accept="image/*" aria-describedby="fileHelpId">
+			<label class="input-group-text" for="inputGroupFileImg">Select Image</label>
+		</div>
+
+		<input type="submit" value="Submit" class="btn btn-primary">
+
+	</form>
+
+</div>
+
+{% endblock %}

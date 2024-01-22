@@ -1,0 +1,8 @@
+Flask
+tensorflow
+pillow
+click
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
